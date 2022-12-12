@@ -3,7 +3,7 @@
 {% else %}
   {% if video %}
     <div class="video--player">
-      {{ video | wistia_video: player_color: color, still_url: thumbnail, playerPreference: "html5" }}
+      {{ video | wistia_video: player_color: color, still_url: thumbnail, playerPreference: "html5", autoPlay: "true", auto_play: "true" }}
       {% if post.next %}
         {% if section.settings.auto_advance %}
           {% include "coming_up" %}
