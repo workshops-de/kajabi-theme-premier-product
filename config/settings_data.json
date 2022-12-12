@@ -1,0 +1,428 @@
+{
+  "current": {
+    "text_color": "#000",
+    "text_color_light": "#fff",
+    "font_family": "Open Sans",
+    "heading_font_family": "Montserrat",
+    "color_primary": "#2e91fc",
+    "color_offset": "#f9f9f9",
+    "color_dark": "#30373e",
+    "color_darker": "#272d34",
+    "color_success": "#1abc9c",
+    "color_info": "#34495e",
+    "color_warning": "#f39c12",
+    "color_danger": "#e74c3c",
+    "color_container_bg": "#f9f9f9",
+    "use_bg_img": "false",
+    "v_align": "top",
+    "body_width": "auto",
+    "sections": {
+      "header": {
+        "settings": {
+          "show_header": "true",
+          "logo_type": "image",
+          "logo_action": "site",
+          "logo_text": "PREMIER",
+          "logo": "themes/2149004767/settings_images/hRRzWMrvTJiOmMWukb0O_logo-workshopsde-color-text.svg.png",
+          "header_height": "",
+          "show_menu": "true",
+          "menu": "main-menu",
+          "search_toggle": "Search",
+          "language_logout": "Logout",
+          "language_settings": "Settings",
+          "language_library": "My Library",
+          "background_color_user": "",
+          "text_color_user": "",
+          "show_header_announcement": "false",
+          "announcement_text": "Announcement",
+          "announcement_link": "",
+          "link_target": "false",
+          "announcement_color": "#1abc9c",
+          "announcement_text_color": "#fff",
+          "background_color": "",
+          "text_color": "",
+          "align_logo": "left"
+        },
+        "type": "header",
+        "hidden": "false",
+        "name": "Header"
+      },
+      "search": {
+        "settings": {
+          "show_search": "true",
+          "search_text": "Search for something...",
+          "background_color": "#92969c",
+          "text_color": "#ffffff"
+        },
+        "type": "search",
+        "hidden": "false",
+        "name": "Search Bar"
+      },
+      "product_hero": {
+        "settings": {
+          "show_hero": "true",
+          "bg_image": "",
+          "overlay": "rgba(0,0,0,.5)",
+          "text_color": "#ffffff",
+          "alignment": "center",
+          "spacing": "medium"
+        },
+        "block_order": [
+          "1484781342623",
+          "1481845615592"
+        ],
+        "type": "product_hero",
+        "hidden": "false",
+        "name": "Hero",
+        "blocks": {
+          "1484781342623": {
+            "settings": {
+              "show_title": "true",
+              "show_desc": "true"
+            },
+            "type": "product_info",
+            "name": "Product Info",
+            "hidden": "false"
+          },
+          "1481845615592": {
+            "settings": {
+              "start_text": "Start Course",
+              "resume_text": "Resume Course",
+              "again_text": "Start Course Over",
+              "btn_style": "solid",
+              "btn_size": "med",
+              "btn_width": "auto",
+              "btn_background_color": "",
+              "btn_text_color": ""
+            },
+            "type": "product_start",
+            "name": "Start Button",
+            "hidden": "false"
+          }
+        }
+      },
+      "product_body": {
+        "settings": {
+          "show_welcome": "false",
+          "alignment": "left"
+        },
+        "block_order": [
+          "1481845632476",
+          "1481845625971"
+        ],
+        "type": "product_body",
+        "hidden": "false",
+        "name": "Welcome Body",
+        "blocks": {
+          "1481845632476": {
+            "settings": {
+              "autoplay": "false",
+              "video_color": "#2e91fc",
+              "video": "",
+              "image": ""
+            },
+            "type": "product_video",
+            "name": "Video",
+            "hidden": "false"
+          },
+          "1481845625971": {
+            "settings": {
+              "show_img": "false",
+              "show_title": "true",
+              "show_desc": "true"
+            },
+            "type": "product_info",
+            "name": "Product Info",
+            "hidden": "false"
+          }
+        }
+      },
+      "product_syllabus": {
+        "settings": {
+          "show_syllabus": "true",
+          "type": "categories",
+          "truncate": "",
+          "categories": "Categories",
+          "coming_soon": "Coming Soon",
+          "show_more": "Show More"
+        },
+        "type": "product_syllabus",
+        "hidden": "false",
+        "name": "Product Syllabus"
+      },
+      "product_sidebar": {
+        "settings": {
+          "show_sidebar": "true"
+        },
+        "block_order": [
+          "1481845656651",
+          "1481845660636"
+        ],
+        "type": "product_sidebar",
+        "hidden": "false",
+        "name": "Product Sidebar",
+        "blocks": {
+          "1481845656651": {
+            "settings": {
+              "show_img": "true",
+              "completed": "Lessons Completed",
+              "accent_color": ""
+            },
+            "type": "course_progress",
+            "name": "Course Progress",
+            "hidden": "false"
+          },
+          "1481845660636": {
+            "settings": {
+              "heading": "Deine Trainerin",
+              "show_img": "true",
+              "image": "themes/2149004767/settings_images/0ENFS4XFQBWnUD7OYdi0_Martina_Kraus.png",
+              "name": "Martina Kraus",
+              "title": "Trainerin",
+              "bio": "Martina ist eine Google Developer Expertin in Angular. Als Trainerin, Beraterin und Speakerin ist sie auf die Implementierung von skalierbaren Softwarelösungen spezialisiert. Seit 2019 ist sie teil der Trainer:innen Community bei Workshops.DE.",
+              "accent_color": ""
+            },
+            "type": "instructor",
+            "name": "Instructor",
+            "hidden": "false"
+          }
+        }
+      },
+      "footer": {
+        "settings": {
+          "show_footer": "true",
+          "show_copyright": "true",
+          "copyright": "workshops.DE",
+          "show_logo": "false",
+          "logo": "",
+          "show_menu": "true",
+          "menu": "footer",
+          "background_color": "",
+          "text_color": "",
+          "align_logo": "left",
+          "show_social_icons": "true",
+          "social_icons_new_window": "false",
+          "social_icon_background_style": "social-icons--none",
+          "social_icon_alignment": "social-icons--left",
+          "social_icons_text_color": "",
+          "social_icons_background_color": "",
+          "social_icon_link_facebook": "https://www.facebook.com/workshops.de",
+          "social_icon_link_twitter": "https://www.twitter.com/workshops_de",
+          "social_icon_link_instagram": "",
+          "social_icon_link_youtube": "https://www.youtube.com/workshopsDE",
+          "social_icon_link_pinterest": "",
+          "social_icon_link_google_plus": "",
+          "social_icon_link_vimeo": "",
+          "social_icon_link_github": "",
+          "social_icon_link_itunes": "",
+          "social_icon_link_linkedin": "https://www.linkedin.com/company/workshops.de",
+          "social_icon_link_soundcloud": "",
+          "social_icon_link_yelp": "",
+          "social_icon_link_tumblr": "",
+          "social_icon_link_slack": "",
+          "social_icon_link_flickr": "",
+          "social_icon_link_dribbble": ""
+        },
+        "type": "footer",
+        "hidden": "false",
+        "name": "Footer"
+      },
+      "breadcrumbs": {
+        "settings": {
+          "show_breadcrumbs": "true",
+          "categories": "Categories",
+          "search": "Search",
+          "announcements": "Announcements",
+          "divider": "/",
+          "color": "",
+          "color_active": ""
+        },
+        "type": "breadcrumbs",
+        "hidden": "false",
+        "name": "Breadcrumbs"
+      },
+      "post_player": {
+        "settings": {
+          "player_type": "inline",
+          "player_accent": "",
+          "player_color": "",
+          "count_text_singular": "Lesson",
+          "count_text_plural": "Lessons",
+          "next_cat": "Next Category",
+          "next": "Next",
+          "previous": "Back",
+          "btn_style": "solid",
+          "btn_size": "med",
+          "btn_background_color": "",
+          "btn_text_color": "",
+          "auto_advance": "true",
+          "timer": "20",
+          "accent_color": "",
+          "begin": "Will Begin In",
+          "seconds": "Seconds",
+          "play": "Play Now",
+          "cancel": "Cancel"
+        },
+        "type": "post_player",
+        "hidden": "false",
+        "name": "Post Player"
+      },
+      "post_body": {
+        "settings": {
+          "alignment": "left",
+          "hide_mark_as_complete": "false",
+          "mark_as_complete_position": "top",
+          "language_complete": "Complete",
+          "language_mark_as_complete": "Mark As Complete",
+          "btn_background_color": "",
+          "btn_text_color": "",
+          "use_next": "true",
+          "encouragement": "Great Job! Keep Going!",
+          "next": "Next Lesson",
+          "smart_next_background": "",
+          "smart_next_color": "",
+          "smart_next_link": ""
+        },
+        "block_order": [
+          "1481845691504"
+        ],
+        "type": "post_body",
+        "hidden": "false",
+        "name": "Post Body",
+        "blocks": {
+          "1481845691504": {
+            "settings": {
+              "show_desc": "true",
+              "show_title": "true",
+              "show_category": "true"
+            },
+            "type": "post_info",
+            "name": "Post Info",
+            "hidden": "false"
+          }
+        }
+      },
+      "post_comments": {
+        "settings": {
+          "language_comment_singular": "Comment",
+          "language_comment_plural": "Comments",
+          "language_comment_locked": "Comments Locked",
+          "language_comment_placeholder": "Say Something...",
+          "language_comment_add": "Post Comment",
+          "language_comment_reply": "REPLY",
+          "language_comment_edit": "EDIT",
+          "language_comment_show_more": "Show More",
+          "language_comment_show_more_loading": "Loading More Comments...",
+          "comment_btn_background_color": "",
+          "comment_btn_text_color": ""
+        },
+        "type": "post_comments",
+        "hidden": "false",
+        "name": "Post Comments"
+      },
+      "post_sidebar": {
+        "settings": {
+          "show_sidebar": "true"
+        },
+        "block_order": [
+          "1481845715286",
+          "1481845721274",
+          "1666192361743"
+        ],
+        "type": "post_sidebar",
+        "hidden": "false",
+        "name": "Post Sidebar",
+        "blocks": {
+          "1481845715286": {
+            "settings": {
+              "language_downloads": "Downloads"
+            },
+            "type": "post_downloads",
+            "name": "Post Downloads",
+            "hidden": "false"
+          },
+          "1481845721274": {
+            "settings": {
+              "heading": "Deine Trainerin",
+              "show_img": "true",
+              "image": "themes/2149004767/settings_images/Ca171SePSLKiMcjrn2W2_file.jpg",
+              "name": "Martina Kraus",
+              "title": "Trainerin",
+              "bio": "Martina ist eine Google Developer Expertin in Angular. Als Trainerin, Beraterin und Speakerin ist sie auf die Implementierung von skalierbaren Softwarelösungen spezialisiert. Seit 2019 ist sie teil der Trainer:innen Community bei Workshops.DE.",
+              "accent_color": ""
+            },
+            "type": "instructor",
+            "name": "Instructor",
+            "hidden": "false"
+          },
+          "1666192361743": {
+            "settings": {
+              "heading": "Du brauchst Hilfe?",
+              "show_img": "true",
+              "image": "themes/2149004767/settings_images/QJpRf57QjykfN4o1HGZl_Artboard.png",
+              "content": "<p>Wenn du nicht weiter kommst, nutze bitte unseren Discord-Channel und stell deine Frage dort.</p>\r\n<p>Weiterhin hast du die M&ouml;glichkeit in einer unserer AMA-Sessions deine Frage direkt Live zu stellen und im Dialog mit uns zu l&ouml;sen!</p>",
+              "show_cta": "true",
+              "btn_text": "Discord Channel",
+              "btn_action": "https://discord.com/channels/351841197603553290/897771013415260160",
+              "btn_target": "true",
+              "btn_style": "solid",
+              "btn_size": "small",
+              "btn_width": "block",
+              "btn_background_color": "",
+              "btn_text_color": "",
+              "alignment": "left",
+              "background_color": "",
+              "text_color": ""
+            },
+            "type": "custom_sidebar_block",
+            "name": "Custom Block",
+            "hidden": "false"
+          }
+        }
+      },
+      "pop_upsell": {
+        "settings": {
+          "show": "false",
+          "enabled": "false",
+          "show_img": "false",
+          "image": "",
+          "text": "<h1>Course Complete!</h1>",
+          "overlay_color": "",
+          "background_color": ""
+        },
+        "type": "pop_upsell",
+        "hidden": "false",
+        "name": "Course Complete Message"
+      },
+      "categories_body": {
+        "settings": {
+          "categories": "Categories",
+          "coming_soon": "Coming Soon"
+        },
+        "type": "categories_body",
+        "hidden": "false",
+        "name": "Categories Body"
+      },
+      "announcements_body": {
+        "settings": {
+          "announcements": "Announcements",
+          "no_announcements": "You Have No Announcements"
+        },
+        "type": "announcements_body",
+        "hidden": "false",
+        "name": "Announcements Body"
+      },
+      "category_body": {
+        "settings": {
+          "show_more": "Show More",
+          "coming_soon": "Coming Soon"
+        },
+        "type": "category_body",
+        "hidden": "false",
+        "name": "Category Body"
+      }
+    },
+    "page_background_img": "",
+    "favicon": ""
+  }
+}

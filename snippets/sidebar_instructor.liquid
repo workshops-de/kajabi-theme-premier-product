@@ -1,0 +1,27 @@
+{% include "panel_style", bgColor: "#fff" %}
+{% assign p-AccentColor   = block.settings.accent_color | default: "" %}
+<style>
+  .panel--{{p-ID}} .instructor__title {
+    color: {{ p-AccentColor }};
+  }
+</style>
+
+<div class="panel panel--{{p-ID}} instructor" kjb-settings-id="{{ 'heading' | settings_id: section: section, block: block }}">
+  <div class="panel__body">
+    {% if block.settings.heading != "" %}
+      <h6 class="panel__heading" kjb-settings-id="{{ 'heading' | settings_id: section: section, block: block }}">{{ block.settings.heading }}</h6>
+    {% endif %}
+    <div class="media">
+      {% if block.settings.show_img %}
+        <div class="media-left">
+          <img src="{{ block.settings.image | image_picker_url: 'avatar.png'}}" class="img-circle instructor__image" kjb-settings-id="{{ 'image' | settings_id: section: section, block: block }}"/>
+        </div>
+      {% endif %}
+      <div class="media-body media-middle">
+        <p class="instructor__name" kjb-settings-id="{{ 'name' | settings_id: section: section, block: block }}">{{ block.settings.name }}</p>
+        <p class="instructor__title" kjb-settings-id="{{ 'title' | settings_id: section: section, block: block }}">{{ block.settings.title }}</p>
+      </div>
+    </div>
+    <p class="panel__copy" kjb-settings-id="{{ 'bio' | settings_id: section: section, block: block }}">{{ block.settings.bio }}</p>
+  </div>
+</div>
